@@ -1,20 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-ul{
-    list-style-type: none;
-   
-}
-
-li{
+.list li {
     background-color: rgb(119, 11, 11);
     margin: 5px;
     color: white;
+    width: calc(14.28% - 10px);
+    height: 50px;
+    text-align: center; 
+    border: 1px solid lime;
+    list-style-type: none;
 }
 
-.fizz {
-    color: yellow; 
-}
+
